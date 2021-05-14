@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="BindingDataWithCodeBehind.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BindingToClassProp.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="IValueConvertExample.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ListBoxChangeBinding.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UpdateSourceTriggerEx.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="BindingDataWithCodeBehind.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="BindingToClassProp.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="IValueConvertExample.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ListBoxChangeBinding.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TextBoxToBlockBinding.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UpdateSourceTriggerEx.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

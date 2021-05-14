@@ -1,0 +1,20 @@
+﻿DataBinding
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\Yavor Trayanov\source\repos\WPF-Tutorial\DataBinding\obj\Debug\netcoreapp3.1\
+DataBinding
+none
+false
+TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
+C:\Users\Yavor Trayanov\source\repos\WPF-Tutorial\DataBinding\App.xaml
+61125183666
+
+101045911584
+192-1533232326
+BindingDataWithCodeBehind.xaml;BindingToClassProp.xaml;IValueConvertExample.xaml;ListBoxChangeBinding.xaml;TextBoxToBlockBinding.xaml;UpdateSourceTriggerEx.xaml;
+
+False
+

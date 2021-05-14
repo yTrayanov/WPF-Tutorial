@@ -1,0 +1,31 @@
+﻿<Window x:Class="ListControls.TreeViewExample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ListControls"
+        mc:Ignorable="d"
+        Title="TreeViewExample" Height="450" Width="800">
+    <Grid Margin="10">
+        <TreeView>
+
+            <TreeView.Resources>
+                <Style TargetType="{x:Type TreeViewItem}">
+                    <Setter Property="FontStyle" Value="Italic" />
+                </Style>
+            </TreeView.Resources>
+            
+            <TreeViewItem Header="Level 1" IsExpanded="True">
+                <TreeViewItem Name="tviMenu">
+                    <TreeViewItem.Header>
+                        <TextBlock Text="level 2.1" FontWeight="Bold" FontStyle="Normal" />
+                    </TreeViewItem.Header>
+                </TreeViewItem>
+                <TreeViewItem Header="level 2.2" >
+                    <TreeViewItem Header="level 3.1" />
+                    <TreeViewItem Header="level 3.2" />
+                </TreeViewItem>
+            </TreeViewItem>
+        </TreeView>
+    </Grid>
+</Window>

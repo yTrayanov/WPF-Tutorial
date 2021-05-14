@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="ComboBoxExample.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ItemsPanelControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ListBoxExample.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ListViewWithGridView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TreeViewExample.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TreeViewExpansionSelection.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TreeViewItemTemplateExample.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TreeViewLazyLoading.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TreeViewMultiTemplateExample.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="ComboBoxExample.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ItemsPanelControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ListBoxExample.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ListViewWithGridView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TreeViewExample.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TreeViewExpansionSelection.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TreeViewItemTemplateExample.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TreeViewLazyLoading.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TreeViewMultiTemplateExample.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

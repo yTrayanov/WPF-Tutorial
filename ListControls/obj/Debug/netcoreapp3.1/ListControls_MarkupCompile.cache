@@ -1,0 +1,20 @@
+﻿ListControls
+
+
+winexe
+C#
+.cs
+C:\Users\Yavor Trayanov\source\repos\TestWPF\ListControls\obj\Debug\netcoreapp3.1\
+ListControls
+none
+false
+TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
+C:\Users\Yavor Trayanov\source\repos\TestWPF\ListControls\App.xaml
+10-372455193
+
+131333358418
+192-1533232326
+ComboBoxExample.xaml;ItemsPanelControl.xaml;ListBoxExample.xaml;ListViewWithGridView.xaml;MainWindow.xaml;TreeViewExample.xaml;TreeViewExpansionSelection.xaml;TreeViewItemTemplateExample.xaml;TreeViewLazyLoading.xaml;TreeViewMultiTemplateExample.xaml;
+
+False
+

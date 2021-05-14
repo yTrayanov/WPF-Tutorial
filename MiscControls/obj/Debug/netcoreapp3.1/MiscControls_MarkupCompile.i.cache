@@ -1,0 +1,20 @@
+﻿MiscControls
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\Yavor Trayanov\source\repos\WPF-Tutorial\MiscControls\obj\Debug\netcoreapp3.1\
+MiscControls
+none
+false
+TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
+C:\Users\Yavor Trayanov\source\repos\WPF-Tutorial\MiscControls\App.xaml
+6-2006702917
+
+10-693370273
+192-1533232326
+BorderControls.xaml;DatePickerControl.xaml;GroupBoxControl.xaml;ProgressBarControl.xaml;SliderControl.xaml;WebBrowserControl.xaml;
+
+False
+

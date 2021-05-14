@@ -1,0 +1,52 @@
+﻿<Window x:Class="TriggerExample.MultiTriggerExample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TriggerExample"
+        mc:Ignorable="d"
+        Title="MultiTriggerExample" Height="450" Width="800">
+    <StackPanel>
+        <TextBox Text="Hover and focus here" HorizontalAlignment="Center" VerticalAlignment="Center" Width="150" Margin="20">
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Style.Triggers>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="IsKeyboardFocused" Value="True" />
+                                <Condition Property="IsMouseOver" Value="True" />
+                            </MultiTrigger.Conditions>
+                            <MultiTrigger.Setters>
+                                <Setter Property="Background" Value="LightGreen" />
+                            </MultiTrigger.Setters>
+                        </MultiTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBox.Style>
+        </TextBox>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <WrapPanel>
+                <CheckBox Name="cbYes" Content="Yes" />
+                <CheckBox Name="cbSure" Content="I'm sure"  Margin="15,0"/>
+            </WrapPanel>
+            <TextBlock HorizontalAlignment="Center" Margin="10" FontSize="28">
+                <TextBlock.Style>
+                    <Style TargetType="TextBlock">
+                        <Setter Property="Text" Value="Unverified" />
+                        <Setter Property="Foreground" Value="Red" />
+                        <Style.Triggers>
+                            <MultiDataTrigger>
+                                <MultiDataTrigger.Conditions>
+                                    <Condition Binding="{Binding ElementName=cbYes, Path=IsChecked}" Value="True"/>
+                                    <Condition Binding="{Binding ElementName=cbSure, Path=IsChecked}" Value="True"/>
+                                </MultiDataTrigger.Conditions>
+                                <Setter Property="Text" Value="Verified" />
+                                <Setter Property="Foreground" Value="Green" />
+                            </MultiDataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBlock.Style>
+            </TextBlock>
+        </StackPanel>
+    </StackPanel>
+</Window>

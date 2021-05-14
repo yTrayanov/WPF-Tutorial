@@ -1,0 +1,4 @@
+C:\Users\Yavor Trayanov\source\repos\TestWPF\AudioAndVideo\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Yavor Trayanov\source\repos\TestWPF\AudioAndVideo\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Yavor Trayanov\source\repos\TestWPF\AudioAndVideo\obj\Debug\netcoreapp3.1\AudioAndVideo_MarkupCompile.cache
+C:\Users\Yavor Trayanov\source\repos\TestWPF\AudioAndVideo\obj\Debug\netcoreapp3.1\AudioAndVideo_MarkupCompile.lref

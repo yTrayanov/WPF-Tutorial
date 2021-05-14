@@ -1,0 +1,38 @@
+﻿<Window x:Class="TextBoxes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimpleForm"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800">
+
+    <Window.Resources>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="Padding" Value="5,15"/>
+        </Style>
+    </Window.Resources> 
+    
+    
+    <StackPanel Margin="10">
+        <Label Target="{Binding ElementName=txtName}">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="http://cdn1.iconfinder.com/data/icons/fatcow/16/bullet_green.png" />
+                <AccessText Text="_Name"/>
+            </StackPanel>
+        </Label>
+        <TextBox Name="txtName" MaxLength="6" />
+
+        <Label Target="{Binding ElementName=txtMail}">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="http://cdn1.iconfinder.com/data/icons/fatcow/16/bullet_blue.png" />
+                <AccessText Text="_Mail"/>
+            </StackPanel>
+        </Label>
+        <TextBox Name="txtMail"/>
+        <TextBox  Name="TextBox1" AcceptsReturn="True" TextWrapping="Wrap" SpellCheck.IsEnabled="True" Width="200" Margin="20"/>
+        <TextBox Name="TextBox2" AcceptsReturn="True" TextWrapping="Wrap" IsReadOnly="True" Width="200"  Margin="50" />
+        <Button Width="50" Click="Button_Click" Cursor="Help"  >Copy</Button>
+        
+    </StackPanel>
+</Window>

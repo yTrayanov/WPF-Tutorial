@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="DataTriggerExample.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EventTriggerExample.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MultiTriggerExample.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TriggerAnimationExample.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="DataTriggerExample.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EventTriggerExample.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MultiTriggerExample.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TriggerAnimationExample.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
